@@ -16,6 +16,6 @@ use App\Http\Controllers\CharController;
 
 Route::get('/', function () {
     return view('welcome');
-});
+})->name('welcome');
 
 Route::get('/characters', [CharController::class, 'index']);
