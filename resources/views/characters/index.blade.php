@@ -11,7 +11,7 @@
                 <p class="card-text">{{$character->level}} lv.</p>
                 <p class="card-text">race: {{$character->race}}</p>
                 <p class="card-text">lifepoint: {{$character->lifepoint}}</p>
-                <p class="card-text">{{$character->strenght}} <i class="fa-solid fa-dumbbell"></i></p>
+                <p class="card-text">{{$character->strength}} <i class="fa-solid fa-dumbbell"></i></p>
                 <p class="card-text">{{$character->agility}} <i class="fa-solid fa-person-running-fast"></i></p>
                 <p class="card-text">weapon: {{$character->main_weapon}}</p>
 

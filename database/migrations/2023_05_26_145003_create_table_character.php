@@ -12,7 +12,7 @@ return new class extends Migration {
      */
     public function up()
     {
-        Schema::create('table_character', function (Blueprint $table) {
+        Schema::create('characters', function (Blueprint $table) {
             $table->id();
             $table->string('name', 50);
             $table->integer('level');
@@ -34,6 +34,6 @@ return new class extends Migration {
      */
     public function down()
     {
-        Schema::dropIfExists('table_character');
+        Schema::dropIfExists('characters');
     }
 };

@@ -18,5 +18,5 @@ Route::get('/', function () {
     return view('welcome');
 })->name('welcome');
 
-Route::get('/characters', [CharController::class, 'index']);
+Route::get('/characters', [CharController::class, 'index'])->name('characters.index');
 

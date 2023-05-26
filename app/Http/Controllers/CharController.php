@@ -8,8 +8,8 @@ use App\Models\Character;
 class CharController extends Controller
 {
     public function index(){
-        $characters = Character::all();
+        $table_character = Character::all();
 
-        return view('characters.index', compact('characters'));
+        return view('characters.index', compact('table_character'));
     }
 }
