@@ -21,7 +21,7 @@
 
     </div>
 
-    <a class="text-center" href="{{ route('home') }}">Back to home</a>
+    <a class="text-center" href="{{ route('welcome') }}">Back to home</a>
 </div>
 
 
